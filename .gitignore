@@ -18,3 +18,4 @@ android/.gradle/
 android/app/build/
 android/build/
 build-output/
+.vercel

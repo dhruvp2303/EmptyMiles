@@ -3,7 +3,7 @@
   "appName": "EmptyMiles",
   "webDir": "public",
   "server": {
-    "url": "http://192.168.101.32:3000",
+    "url": "https://emptymiles-three.vercel.app",
     "cleartext": true,
     "androidScheme": "https"
   },
