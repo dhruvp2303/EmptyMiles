@@ -1,0 +1,15 @@
+# EmptyMiles Robots Configuration
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /privacy-policy
+Allow: /terms
+Allow: /refund-policy
+Allow: /cancellation-policy
+Allow: /contact
+Allow: /help
+
+Disallow: /admin
+Disallow: /api/
+
+Sitemap: https://emptymiles.in/sitemap.xml

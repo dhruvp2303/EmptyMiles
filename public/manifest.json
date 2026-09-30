@@ -1,0 +1,19 @@
+{
+  "name": "EmptyMiles - Freight Capacity Exchange",
+  "short_name": "EmptyMiles",
+  "description": "Pan-India Freight Capacity Optimization & Truck Matching Network",
+  "start_url": "/home",
+  "display": "standalone",
+  "background_color": "#0F2942",
+  "theme_color": "#0F2942",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["logistics", "business", "transportation"]
+}

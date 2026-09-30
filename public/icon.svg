@@ -1,0 +1,75 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Vibrant High-Contrast Cargo Gradient -->
+    <linearGradient id="fav-cargo" x1="10" y1="14" x2="38" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#FF7E3E" />
+      <stop offset="100%" stopColor="#F06524" />
+    </linearGradient>
+
+    <!-- High-Contrast Clean Truck Cab -->
+    <linearGradient id="fav-cab" x1="36" y1="16" x2="60" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#FFFFFF" />
+      <stop offset="100%" stopColor="#E2E8F0" />
+    </linearGradient>
+
+    <!-- Speed & Road Gradient -->
+    <linearGradient id="fav-road" x1="4" y1="58" x2="40" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#F06524" />
+      <stop offset="100%" stopColor="#FF9F43" />
+    </linearGradient>
+
+    <linearGradient id="fav-bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#0B192C" />
+      <stop offset="100%" stopColor="#1E3E62" />
+    </linearGradient>
+  </defs>
+
+  <!-- High-Visibility Badge Background for dark/light browser tabs -->
+  <rect width="64" height="64" rx="16" fill="url(#fav-bg)" />
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="15.25" stroke="#F06524" stroke-opacity="0.6" stroke-width="1.5" />
+
+  <!-- Speed Motion Streaks -->
+  <path d="M4 25 H15 L13 28 H2 Z" fill="#38BDF8" opacity="0.9" />
+  <path d="M1 31 H12 L10 34 H0 Z" fill="#38BDF8" />
+  <path d="M5 37 H16 L14 40 H3 Z" fill="#38BDF8" opacity="0.9" />
+
+  <!-- Highway Road Perspective Corridor -->
+  <path d="M6 55 L26 39 H42 L24 55 Z" fill="url(#fav-road)" />
+  <!-- Road Lane Dash -->
+  <path d="M14 52 L19 48 H22 L17 52 Z" fill="#FFFFFF" />
+  <path d="M25 46 L29 43 H31 L27 46 Z" fill="#FFFFFF" />
+
+  <!-- Orange Cargo Container (Freight Payload) -->
+  <g>
+    <path d="M17 19 L40 12 V40 H17 Z" fill="url(#fav-cargo)" />
+    <!-- White Industrial Ribs for Maximum Visibility -->
+    <path d="M22 18 V39.5" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" />
+    <path d="M27 16.5 V39.5" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" />
+    <path d="M32 15 V39.5" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" />
+    <path d="M37 13.5 V39.5" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" />
+  </g>
+
+  <!-- Heavy Duty Truck Cab (Bright White/Silver to pop on dark tabs) -->
+  <g>
+    <!-- Cab Body -->
+    <path d="M40 12 L50 14 C53 14.5 56 17 58 21 L62 31 C63 33 63.5 35 63.5 37 V42 H40 V12 Z" fill="url(#fav-cab)" />
+    <!-- Windows -->
+    <path d="M50 17 L57 23 C58 24 58.5 26 59 28 H47 V17 H50 Z" fill="#0B192C" />
+    <path d="M43 17 H46 V28 H43 V17 Z" fill="#0B192C" />
+    <!-- Grille -->
+    <path d="M59 34 H63 V36 H59 Z" fill="#0B192C" />
+    <path d="M58 37 H63 V39 H58 Z" fill="#0B192C" />
+    <!-- Headlight -->
+    <polygon points="61.5,32 63.5,32.5 63,34.5 61,34" fill="#FFD200" />
+    
+    <!-- Rear Wheels -->
+    <circle cx="24" cy="43" r="5.5" fill="#060E18" />
+    <circle cx="24" cy="43" r="3" fill="#FFFFFF" />
+    <circle cx="24" cy="43" r="1.5" fill="#060E18" />
+
+    <!-- Front Wheels -->
+    <circle cx="53" cy="43" r="6" fill="#060E18" />
+    <circle cx="53" cy="43" r="3.2" fill="#FFFFFF" />
+    <circle cx="53" cy="43" r="1.5" fill="#060E18" />
+  </g>
+</svg>

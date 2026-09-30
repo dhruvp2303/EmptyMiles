@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">EmptyMiles</string>
+    <string name="title_activity_main">EmptyMiles</string>
+    <string name="package_name">in.emptymiles.app</string>
+    <string name="custom_url_scheme">in.emptymiles.app</string>
+</resources>

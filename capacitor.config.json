@@ -1,0 +1,14 @@
+{
+  "appId": "in.emptymiles.app",
+  "appName": "EmptyMiles",
+  "webDir": "public",
+  "server": {
+    "url": "http://192.168.101.32:3000",
+    "cleartext": true,
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#0B192C",
+    "allowMixedContent": true
+  }
+}
